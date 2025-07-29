@@ -1,0 +1,7 @@
+streamlit
+pytrends
+pandas
+plotly
+numpy
+statsmodels
+requests
