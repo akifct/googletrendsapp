@@ -24,8 +24,9 @@ periodes = {
 
 with st.form(key='zoek_formulier'):
     zoekwoorden_input = st.text_input(
-        'Voer 1 tot 5 zoekwoorden in, gescheiden door komma:',
-        'appelboom, sinaasappel, peer'
+    'Voer 1 tot 5 zoekwoorden in, gescheiden door komma:',
+    value='',
+    placeholder='zoekwoord1, zoekwoord2, etc.'
     )
 
     col1, col2 = st.columns([2, 1])
